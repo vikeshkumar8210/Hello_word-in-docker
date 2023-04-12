@@ -5,7 +5,7 @@ FROM python:3.8
 WORKDIR /app
 
 # Copy the server.py file into the container
-COPY server.py .
+COPY . .
 
 # Expose the port that the server listens on
 EXPOSE 8000
